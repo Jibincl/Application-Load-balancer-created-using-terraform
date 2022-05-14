@@ -97,7 +97,7 @@ Lets start with main.tf file, the details are below
 ~~~
 module "vpc" {
 
-  source   = "git@github.com:Sanudast/aws_vpc_module.git"
+  source   = "git@github.com:Jibincl/Terraform-for-AWS-VPC.git"
   vpc_cidr = var.vpc_cidr
   project  = var.project
 
