@@ -3,7 +3,7 @@
 # --------------------------------------------------
 module "vpc" {
 
-  source   = "git@github.com:Sanudast/aws_vpc_module.git"
+  source   = "git@github.com:Jibincl/Terraform-for-AWS-VPC.git"
   vpc_cidr = var.cidr
   project  = var.project
 
